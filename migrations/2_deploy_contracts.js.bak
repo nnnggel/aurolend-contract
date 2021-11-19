@@ -1,0 +1,5 @@
+var catToken = artifacts.require("CatToken");
+
+module.exports = function(deployer) {
+    deployer.deploy(catToken);
+};
